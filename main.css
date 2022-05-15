@@ -3,6 +3,9 @@
     width: 50vw;
     height: 50vw;
     margin:  auto;
+    background-color: #c0c1c1;
 }
-.pixel {
+
+body {
+    background-color: #d00101;
 }
