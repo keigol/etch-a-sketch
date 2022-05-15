@@ -1,12 +1,7 @@
-const length = 100;
+const length = 70;
 
 function run() {
     setupCanvas();
-}
-
-function draw(e) {
-    e.target.style.background = 'rgb(78, 78, 78)';
-    console.log('hi');
 }
 
 function setupCanvas() {
@@ -18,6 +13,10 @@ function setupCanvas() {
         pixel.addEventListener('mouseenter', draw);
         canvas.appendChild(pixel);
     }
+}
+
+function draw(e) {
+    e.target.style.background = 'rgb(78, 78, 78)';
 }
 
 run();
