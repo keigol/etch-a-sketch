@@ -1,0 +1,8 @@
+.canvas {
+    display: grid;
+    width: 50vw;
+    height: 50vw;
+    margin:  auto;
+}
+.pixel {
+}
